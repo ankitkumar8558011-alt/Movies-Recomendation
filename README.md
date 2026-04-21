@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System
+8# 🎬 Movie Recommendation System
 
 A movie recommendation system built using **TF-IDF**, **FastAPI**, and **Streamlit**, integrated with the **TMDB API** to provide real-time movie data, posters, and personalized recommendations.
 
@@ -91,4 +91,4 @@ http://localhost:8501
 Name - Ankit kumar
 
 ## ⭐ Show Your Support
-If you like this project, give it a ⭐ on
+If you like this project, give it a ⭐ on Github 

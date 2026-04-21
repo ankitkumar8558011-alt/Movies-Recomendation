@@ -22,20 +22,14 @@ A movie recommendation system built using **TF-IDF**, **FastAPI**, and **Streaml
 * **Pickle (for model storage)**
 
 ## 📁 Project Structure
-
 project/
-│
-├── main.py                # FastAPI backend
-├── app.py                 # Streamlit frontend
-│
-├── df.pkl                 # Processed dataset
-├── tfidf.pkl              # TF-IDF vectorizer
-├── tfidf_matrix.pkl       # TF-IDF matrix
-├── indices.pkl            # Title index mapping
-│
-├── movies_metadata.csv    # Raw dataset
-└── README.md
-
+** main.py                # FastAPI backend
+** app.py                 # Streamlit frontend
+** df.pkl                 # Processed dataset
+** tfidf.pkl              # TF-IDF vectorizer
+** tfidf_matrix.pkl       # TF-IDF matrix
+** indices.pkl            # Title index mapping
+** movies_metadata.csv    # Raw dataset
 
 ## ⚙️ Installation
 ### 1. Clone the repository
@@ -58,7 +52,7 @@ Get your API key from: [https://www.themoviedb.org/](https://www.themoviedb.org/
 
 Add it in `main.py`:
 
-TMDB_API_KEY = "your_api_key_here"
+TMDB_API_KEY = TMDB_API_KEY =5b4b9300ec4573844ccac77f5bc007c4
 
 
 ## ▶️ Run the Project

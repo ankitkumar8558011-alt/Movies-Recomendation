@@ -23,7 +23,6 @@ A movie recommendation system built using **TF-IDF**, **FastAPI**, and **Streaml
 
 ## 📁 Project Structure
 
-```bash
 project/
 │
 ├── main.py                # FastAPI backend
@@ -36,25 +35,22 @@ project/
 │
 ├── movies_metadata.csv    # Raw dataset
 └── README.md
-```
+
 
 ## ⚙️ Installation
-
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/ankitkumar8558011-alt/Movie-Recommendation.git
-```
+
 
 ### 2. Install dependencies
-```bash
+
 pip install -r requirements.txt
-```
 
 If no requirements file:
-```bash
+
 pip install fastapi uvicorn streamlit pandas numpy scikit-learn httpx
-```
+
 
 ## 🔑 TMDB API Key
 
@@ -62,31 +58,23 @@ Get your API key from: [https://www.themoviedb.org/](https://www.themoviedb.org/
 
 Add it in `main.py`:
 
-```python
 TMDB_API_KEY = "your_api_key_here"
-```
 
 
 ## ▶️ Run the Project
 
 ### Step 1: Start FastAPI backend
 
-```bash
 uvicorn main:app --reload
-```
+
 Open:
-```
 http://127.0.0.1:8000/docs
-```
 
 ### Step 2: Run Streamlit frontend
-```bash
 streamlit run app.py
-```
+
 Open:
-```
 http://localhost:8501
-```
 
 ## 🧠 How It Works
 

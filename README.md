@@ -23,13 +23,13 @@ A movie recommendation system built using **TF-IDF**, **FastAPI**, and **Streaml
 
 ## 📁 Project Structure
 project/
-** main.py                # FastAPI backend
-** app.py                 # Streamlit frontend
-** df.pkl                 # Processed dataset
-** tfidf.pkl              # TF-IDF vectorizer
-** tfidf_matrix.pkl       # TF-IDF matrix
-** indices.pkl            # Title index mapping
-** movies_metadata.csv    # Raw dataset
+* **main.py**               # FastAPI backend
+* **app.py**                # Streamlit frontend
+* **df.pkl**                # Processed dataset
+* **tfidf.pkl**             # TF-IDF vectorizer
+* **tfidf_matrix.pkl**      # TF-IDF matrix
+* **indices.pkl**           # Title index mapping
+* **movies_metadata.csv**   # Raw dataset
 
 ## ⚙️ Installation
 ### 1. Clone the repository

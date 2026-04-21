@@ -34,7 +34,7 @@ project/
 ## ⚙️ Installation
 ### 1. Clone the repository
 
-git clone https://github.com/ankitkumar8558011-alt/Movie-Recommendation.git
+git clone https://github.com/ankitkumar8558011-alt/Movies-Recommendation.git
 
 
 ### 2. Install dependencies
